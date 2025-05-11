@@ -140,7 +140,3 @@ grpcurl -d '{"key": "test"}' -plaintext  localhost:8083 PubSub/Subscribe
 2. В проекте используется dependency injection при инициализации grpc сервера мы можем подменять реализацию subpub если она соответствует доменным моделям.
 3. В функции main файла main.go реализован graceful shutdown при поступлении сигналов OS. 
     
-
-# SubPub service
-
-1. Имплементирована библиотека subpub из задания:
